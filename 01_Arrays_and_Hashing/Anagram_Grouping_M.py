@@ -25,3 +25,7 @@ class Solution:
             res[tuple(count)].append(s)
 
         return list(res.values())
+    
+    #o(m*n) 
+    #m is no. of strings in input list
+    #n is avg length of string in inputs 
