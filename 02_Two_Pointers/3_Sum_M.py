@@ -4,16 +4,16 @@
 #Output: [[-1,-1,2],[-1,0,1]]
 
 class Solution:
-    def threeSum(self, nums: list[int]) -> list[list[int]]:
+    def threeSum(self, nums: list[int]) -> list[list[int]]: 
 
         res = []
         nums.sort() 
 
-        for i, a in enumerate(nums):
+        for i, a in enumerate(nums): #making a the first element 
             if i > 0 and a == nums[i-1]:
                 continue
             
-            l, r = i + 1, len(nums) - 1
+            l, r = i + 1, len(nums) - 1 #then making l and r pointers out of the rest two
             while l < r:
                 threeSum = a + nums[l] +nums[r]
                 if threeSum > 0:

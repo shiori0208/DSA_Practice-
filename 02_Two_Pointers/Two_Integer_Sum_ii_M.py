@@ -8,10 +8,10 @@
 class Solution:
     def twoSum(self, numbers: list[int], target: int) -> list[int]:
 
-        l, r = 0, len(numbers) - 1
+        l, r = 0, len(numbers) - 1 #two pointers are made on opposite ends
 
         while l < r:
-            curSum = numbers[l] + numbers[r]
+            curSum = numbers[l] + numbers[r] 
 
             if curSum > target:
                 r -= 1
