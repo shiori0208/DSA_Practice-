@@ -8,7 +8,7 @@
 class Solution:
     def maxProfit(self, prices: list[int]) -> int:
         l, r = 0, 1
-        maxProfit = 0 
+        maxProfit = 0 #saving maxf in one variable to lower O()
 
         while r < len(prices):
             if prices[l] < prices[r]:
