@@ -1,3 +1,8 @@
+#You are given the head of a linked list of length n. Unlike a singly linked list, each node contains an additional pointer random, which may point to any node in the list, or null.
+
+#Input: head = [[3,null],[7,3],[4,0],[5,1]]
+#Output: [[3,null],[7,3],[4,0],[5,1]]
+
 
 # Definition for a Node.
 from typing import Optional
