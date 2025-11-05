@@ -5,7 +5,6 @@
 #Output: [1,2,4]
 
 
-
 # Definition for singly-linked list.
 
 
