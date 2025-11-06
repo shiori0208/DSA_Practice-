@@ -1,4 +1,10 @@
 
+#Input: l1 = [1,2,3], l2 = [4,5,6]
+#Output: [5,7,9]
+
+#Explanation: 321 + 654 = 975.
+
+
 from typing import Optional
 
 
