@@ -1,3 +1,8 @@
+#Given a binary tree, return true if it is height-balanced and false otherwise.
+#A height-balanced binary tree is defined as a binary tree in which the left and right subtrees of every node differ in height by no more than 1.
+
+#Input: root = [1,2,3,null,null,4,null,5]
+#Output: false
 
 
 # Definition for a binary tree node.
