@@ -1,3 +1,8 @@
+#Given the roots of two binary trees p and q, return true if the trees are equivalent, otherwise return false.
+
+#Input: p = [1,2,3], q = [1,3,2]
+#Output: false
+
 
 
 # Definition for a binary tree node.
