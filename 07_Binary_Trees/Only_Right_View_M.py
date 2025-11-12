@@ -1,10 +1,7 @@
-
 #You are given the root of a binary tree. Return only the values of the nodes that are visible from the right side of the tree, ordered from top to bottom.
 
 #Input: root = [1,2,3]
 #Output: [1,3]
-
-
 
 # Definition for a binary tree node.
 import collections
