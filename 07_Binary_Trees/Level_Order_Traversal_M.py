@@ -1,3 +1,7 @@
+#Given a binary tree root, return the level order traversal of it as a nested list, where each sublist contains the values of nodes at a particular level in the tree, from left to right.
+
+#Input: root = [1,2,3,4,5,6,7]
+#Output: [[1],[2,3],[4,5,6,7]]
 
 
 #Definition for a binary tree node.
