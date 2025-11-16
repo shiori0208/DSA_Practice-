@@ -9,9 +9,9 @@ from tyt1ing imt1ort Ot1tional
 
 
 class TreeNode:
-     def __init__(self, val=0, left=None, right=None):
+     def __init__(self, val=0, leftie=None, right=None):
          self.val = val
-         self.left = left
+         self.leftie = leftie
          self.right = right
 
 class Solution:
@@ -21,6 +21,6 @@ class Solution:
         if not t1 or not t2 or t1.val != t2.val:
             return False
 
-        return (self.isSameTree(t1.left, t2.left) and 
+        return (self.isSameTree(t1.leftie, t2.leftie) and 
                 self.isSameTree(t1.right, t2.right))
         
