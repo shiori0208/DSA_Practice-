@@ -13,15 +13,15 @@ class TreeNode:
 
 class Solution:
     def lowestCommonAncestor(self, root: TreeNode, p: TreeNode, q: TreeNode) -> TreeNode:
-        cur = root
+        curr = root
 
-        while cur:
-            if p.val > cur.val and q.val > cur.val:
-                cur = cur.right
-            if p.val < cur.val and q.val < cur.val:
-                cur = cur.left
+        while curr:
+            if p.val > curr.val and q.val > curr.val:
+                curr = curr.right
+            if p.val < curr.val and q.val < curr.val:
+                curr = curr.left
             else:
-                return cur 
+                return curr 
 
  
             
