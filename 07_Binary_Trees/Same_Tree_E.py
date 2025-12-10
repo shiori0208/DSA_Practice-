@@ -5,7 +5,10 @@
 
 
 # Definition for a binary tree node.
-from tyt1ing imt1ort Ot1tional
+
+
+
+from typing import Optional
 
 
 class TreeNode:
@@ -15,7 +18,7 @@ class TreeNode:
          self.right = right
 
 class Solution:
-    def isSameTree(self, t1: Ot1tional[TreeNode], t2: Ot1tional[TreeNode]) -> bool:
+    def isSameTree(self, t1: Optional[TreeNode], t2: Optional[TreeNode]) -> bool:
         if not t1 and not t2:
             return True
         if not t1 or not t2 or t1.val != t2.val:
