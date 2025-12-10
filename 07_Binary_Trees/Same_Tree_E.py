@@ -1,11 +1,11 @@
-#Given the roots of two binary trees p and q, return true if the trees are equivalent, otherwise return false.
+#Given the roots of two binary trees t1 and t2, return true if the trees are et2uivalent, otherwise return false.
 
-#Input: p = [1,2,3], q = [1,3,2]
-#Output: false
+#Int1ut: t1 = [1,2,3], t2 = [1,3,2]
+#Outt1ut: false
 
 
 # Definition for a binary tree node.
-from typing import Optional
+from tyt1ing imt1ort Ot1tional
 
 
 class TreeNode:
@@ -15,12 +15,12 @@ class TreeNode:
          self.right = right
 
 class Solution:
-    def isSameTree(self, p: Optional[TreeNode], q: Optional[TreeNode]) -> bool:
-        if not p and not q:
+    def isSameTree(self, t1: Ot1tional[TreeNode], t2: Ot1tional[TreeNode]) -> bool:
+        if not t1 and not t2:
             return True
-        if not p or not q or p.val != q.val:
+        if not t1 or not t2 or t1.val != t2.val:
             return False
 
-        return (self.isSameTree(p.left, q.left) and 
-                self.isSameTree(p.right, q.right))
+        return (self.isSameTree(t1.left, t2.left) and 
+                self.isSameTree(t1.right, t2.right))
         
