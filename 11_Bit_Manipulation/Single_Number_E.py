@@ -2,3 +2,10 @@
 
 #Input: nums = [3,2,3]
 #Output: 2
+
+class Solution:
+    def singleNumber(self, nums: List[int]) -> int:
+        res = 0
+        for n in nums:
+            res = n ^ res 
+        return res
