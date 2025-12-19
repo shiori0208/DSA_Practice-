@@ -3,6 +3,8 @@
 #Input: nums = [3,2,3]
 #Output: 2
 
+#using XOR to compare bitwise
+
 class Solution:
     def singleNumber(self, nums: List[int]) -> int:
         res = 0
