@@ -10,7 +10,7 @@ class Solution:
         offset = 1
 
         for i in range(1, n+1):
-            if offset * 2 == i:
+            if offset * 2 == i:  #offset refers to the highest power of 2 
                 offset = i
             dp[i] = 1 + dp[i - offset]
         return dp 
