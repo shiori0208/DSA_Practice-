@@ -3,4 +3,11 @@
 #Input: nums = [1,2,3]
 #Output: 0
 
+class Solution:
+    def missingNumber(self, nums: List[int]) -> int:
+        res = len(nums)
+
+        for i in range(len(nums)):
+            res += (i - nums[i])
+        return res 
 
