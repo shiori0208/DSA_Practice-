@@ -4,3 +4,6 @@
 
 #You have a car that can store an unlimited amount of gas, but you begin the journey with an empty tank at one of the gas stations.
 #Return the starting gas station's index such that you can travel around the circuit once in the clockwise direction. If it's impossible, then return -1.
+
+#Input: gas = [1,2,3,4], cost = [2,2,4,1]
+#Output: 3
