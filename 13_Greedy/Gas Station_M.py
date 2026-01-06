@@ -7,3 +7,7 @@
 
 #Input: gas = [1,2,3,4], cost = [2,2,4,1]
 #Output: 3
+
+class Solution:
+    def canCompleteCircuit(self, gas: List[int], cost: List[int]) -> int:
+        
