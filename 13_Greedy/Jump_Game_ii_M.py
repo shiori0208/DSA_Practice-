@@ -4,3 +4,5 @@
 #Input: nums = [2,4,1,1,1,1]
 #Output: 2
 
+class Solution:
+    def jump(self, nums: List[int]) -> int:
