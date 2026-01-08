@@ -3,3 +3,6 @@
 
 #Input: nums = [2,-3,4,-2,2,1,-1,4]
 #Output: 8
+
+class Solution:
+    def maxSubArray(self, nums: List[int]) -> int:
