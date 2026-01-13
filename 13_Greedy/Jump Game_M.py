@@ -4,5 +4,6 @@
 #Input: nums = [1,2,0,1,0]
 #Output: true
 
-
+class Solution:
+    def canJump(self, nums: List[int]) -> bool:
        
