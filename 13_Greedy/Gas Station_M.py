@@ -14,7 +14,7 @@ class Solution:
             return -1
         
         total = 0
-        res = 0
+        res = 0 #keeping track of index or start point
 
         for i in range(len(gas)):
             total += (gas[i] - cost[i])
