@@ -6,14 +6,14 @@
 
 class Solution:
     def jump(self, nums: List[int]) -> int:
-        res = 0 
-        l, r = 0, 0
+        res = 0 #counting num of jumps
+        l, r = 0, 0 #window of bfs
 
         while r < len(nums) - 1:
             farthest = 0
             for i in range(l, r+1):
-                farthest = max(farthest, i + nums[i])
-            l = r + 1
+                farthest = max(farthest, i + nums[i]) #going as far as a val can go
+            l = r + 1 
             r = farthest
             res += 1 
         return res
