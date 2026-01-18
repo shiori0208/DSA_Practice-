@@ -6,15 +6,15 @@
 
 class Solution:
     def isNStraightHand(self, hand: List[int], groupSize: int) -> bool:
-        if len(hand) % groupSize: 
+        if len(hand) % groupSize: #make sure the whole array can be equally divided into groupsizes
             return False
         
         count={}
         for n in hand:
-            count[n] = 1 + count.get(n,0)
+            count[n] = 1 + count.get(n,0) #making a hashmap
 
-        minH = list(count.keys())
-        heapq.heapify(minH)
+        minH = list(count.keys()) #making it into a list of unique values
+        heapq.heapify(minH) #converting it into a minHeap
         while minH:
             first = minH[0]
 
@@ -23,7 +23,7 @@ class Solution:
                     return False 
                 count[i] -= 1
                 if count[i] == 0:
-                    if i != minH[0]:
+                    if i != minH[0]: #if at any point min is not present 
                         return False
                     heapq.heappop(minH)
         return True 
