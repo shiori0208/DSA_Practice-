@@ -4,6 +4,6 @@
 #Input: hand = [1,2,4,2,3,5,3,4], groupSize = 4
 #Output: true
 
-class Solution:
-    def isNStraightHand(self, hand: List[int], groupSize: int) -> bool:
+
+        
         
